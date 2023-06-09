@@ -1,0 +1,9 @@
+[FILENAMES]
+Open = "C:\Program Files\OpenVPN\bin\openvpn-gui.exe"
+Save = "C:\Program Files\OpenVPN\bin\openvpn-gui.exe"
+Log  = replace-tray-icons.log
+
+[COMMANDS]
+-modify        connected.ico,    IconGroup,91,1033
+-modify        connecting.ico,   IconGroup,92,1033
+-modify        disconnected.ico, IconGroup,93,1033
