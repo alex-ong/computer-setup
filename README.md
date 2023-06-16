@@ -20,3 +20,8 @@ ls.bat
 ===
 Copy to C:/Windows/System32
 Allows you to use `ls` in cmd
+
+Rightclick.reg
+===
+Sets up Win11 rightclick to perform like Win10 rightclick (GET RID OF THAT 
+NEW SEXY UI)
