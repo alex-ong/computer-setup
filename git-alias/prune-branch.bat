@@ -1,4 +1,4 @@
-echo off
+@echo off
 git fetch -p
 
 git for-each-ref --format="%%(if:equals=[gone])%%(upstream:track)%%(then)%%(refname:short)%%(end)" refs/heads
