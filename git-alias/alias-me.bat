@@ -2,6 +2,9 @@ set "scriptDir=%~dp0"
 set "prune-batch-path=%scriptDir%prune-branch.bat"
 set "prune-batch-path=%prune-batch-path:\=/%"
 
+rem stacked rebasing working
+git config --global --add --bool rebase.updateRefs true
+
 git config --global alias.l  "log --oneline --graph"
 git config --global alias.la  "l --all"
 git config --global alias.ps  "push"
