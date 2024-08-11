@@ -1,5 +1,6 @@
 winget install --id=Google.Chrome -e
 winget install --id=7zip.7zip -e
+winget install -e --id Notepad++.Notepad++
 winget install --id=Discord.Discord -e
 winget install --id=Microsoft.VisualStudio.2022.Community -e
 winget install --id=Microsoft.VisualStudioCode -e
@@ -34,4 +35,12 @@ winget install --id=python.Python.3.12 --override "InstallAllUsers=1 TargetDir=C
 rem Use the following line to install, linking to PuTTy. to use OpenSSH, refer to Git Extensions docs above.
 winget install --id=GitExtensionsTeam.GitExtensions -i
 
-
+winget install -e --id Nvidia.GeForceExperience
+winget install -e --id RiotGames.Valorant.AP
+winget install -e --id Valve.Steam
+winget install -e --id Docker.DockerDesktop
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id Microsoft.PowerShell
+winget install -e --id Obsidian.Obsidian
+winget install -e --id Audacity.Audacity
+winget install -e --id Microsoft.OpenSSH.Beta
